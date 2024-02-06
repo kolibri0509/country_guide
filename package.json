@@ -3,15 +3,11 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kolibri0509.github.io",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
-    "server": "json-server -p3003 --watch db.json",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b master -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "axios": "^1.6.2",
