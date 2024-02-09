@@ -40,7 +40,7 @@ const ShowCountry = ({country}) => {
                     <h3>Area: {state.area} km²</h3>
                     <h3>Languages: {state.languages}</h3>
           
-                    <div style={{ border: "1px solid black", width: "fit-content"}}>
+                    <div style={{width: "fit-content"}}>
                       <img src={state.flags["png"]} />
                     </div>
                     <h2>Weather in {state.capital}</h2>
